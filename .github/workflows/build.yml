@@ -4,7 +4,8 @@
 
 name: Build
 
-"on": push
+# Triggers intentionally disabled for Argus-OSS-Security.
+# "on": push
 
 env:
   CUCUMBER_PUBLISH_QUIET: true
